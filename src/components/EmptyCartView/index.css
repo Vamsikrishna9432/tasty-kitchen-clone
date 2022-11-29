@@ -1,0 +1,53 @@
+.empty-container {
+  height: 87vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.empty-image {
+  width: 425px;
+  height: 367px;
+  margin-bottom: 15px;
+}
+.empty-heading {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  color: #1e293b;
+  margin-bottom: 10px;
+}
+.empty-para {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #64748b;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.order-btn {
+  width: 100px;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  background-color: #f7931e;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  border-width: 0px;
+}
+.hide-link {
+  background-color: transparent;
+  outline: none;
+  text-decoration: none;
+  border: 0px;
+}

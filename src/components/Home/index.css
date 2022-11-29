@@ -1,0 +1,149 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.items {
+  margin-top: 10px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.popular-heading {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #183b56;
+}
+.description {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #64748b;
+}
+.icon {
+  color: #475569;
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+.filter-container {
+  display: flex;
+  align-items: center;
+}
+.bottom-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.select-container {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475569;
+  border-width: 0px;
+  outline: none;
+  cursor: pointer;
+}
+.opt {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #475569;
+}
+.line {
+  width: 100%;
+  border: 1px dashed #cbd2d9;
+  background-color: #cbd2d9;
+}
+.restaurent-items {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.forword-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.fbcon {
+  display: flex;
+  align-items: center;
+}
+.i-num {
+  font-family: 'Bree Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #334155;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.btn {
+  background: transparent;
+  border: 2px solid #334155;
+  height: 27px;
+  width: 27px;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.i {
+  font-size: 15px;
+  font-weight: 500;
+}
+.loader-container {
+  height: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sort {
+  color: #475569;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  margin-left: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .sort {
+    font-size: 16px;
+    line-height: 16px;
+  }
+}
+
+.option {
+  color: #475569;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .option {
+    font-size: 16px;
+    line-height: 16px;
+  }
+}

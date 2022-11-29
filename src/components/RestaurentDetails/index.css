@@ -1,0 +1,122 @@
+.specific-hotel-container {
+  display: flex;
+  flex-direction: column;
+}
+.container-black {
+  width: 100%;
+  height: 344px;
+  background-image: url('https://res.cloudinary.com/uvamsi-ccbp-tech/image/upload/v1669483509/Frame_279_xn9o59.jpg');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.banner-content {
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+.banner-image {
+  height: 280px;
+  width: 445px;
+  border-radius: 8px;
+  margin-right: 30px;
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 450px;
+}
+.b-head {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+.b-p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  margin: 0px;
+}
+.b-p1 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.ratings-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.rating-con {
+  display: flex;
+  flex-direction: column;
+  padding-right: 20px;
+  border-right: 2px solid #ffffff;
+  height: 80px;
+}
+.rating-con1 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  height: 80px;
+}
+.top {
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+.i1 {
+  color: #ffffff;
+  margin-right: 5px;
+}
+.ra {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+}
+.re {
+  margin: 0px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #e2e8f0;
+}
+.food-items-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.f-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
